@@ -157,8 +157,6 @@ class Soal2ViewModel : ViewModel() {
     )
 
     val filterNames = listOf("All", "Berserker", "Archmage", "High Templar", "Divine Oracle", "Shadowblade")
-
-    // ---- STATE ----
     var selectedFilter by mutableStateOf("All")
     var searchText by mutableStateOf("")
     var expandedHeroId by mutableStateOf<Int?>(null)
